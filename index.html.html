@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenali Diri Anda: Panduan Lengkap Ujian Personaliti DISC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: -webkit-linear-gradient(45deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .tab-button.active {
+            border-color: #4f46e5;
+            background-color: #eef2ff;
+            color: #4f46e5;
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <!-- Hero Section -->
+    <div class="bg-white">
+        <div class="container mx-auto px-6 py-20 md:py-28 text-center">
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-slate-900 mb-4">Fahami Tingkah Laku Anda dengan <span class="gradient-text">Ujian DISC</span>.</h1>
+            <p class="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto">
+                Model DISC ialah alat penilaian kendiri yang membantu anda memahami gaya komunikasi, kekuatan, dan cabaran peribadi anda untuk membina hubungan yang lebih baik di tempat kerja dan dalam kehidupan.
+            </p>
+        </div>
+    </div>
+
+    <!-- DISC Explanation Section -->
+    <div class="container mx-auto px-6 py-16" id="disc-details">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Empat Dimensi Personaliti</h2>
+            <p class="mt-3 text-slate-600 max-w-2xl mx-auto">Setiap individu mempunyai keempat-empat ciri ini, tetapi pada tahap yang berbeza. Kenali ciri dominan anda.</p>
+        </div>
+
+        <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-4">
+            <!-- Tabs -->
+            <div class="flex flex-wrap justify-center border-b border-slate-200 -mt-4 -mx-4 mb-6">
+                <button onclick="changeTab('D')" class="tab-button D active flex-grow text-center py-4 px-2 border-b-4 border-transparent text-slate-600 hover:bg-slate-100 transition-colors duration-300">
+                    <span class="text-2xl font-bold text-red-500">D</span><span class="hidden sm:inline"> - Dominance</span>
+                </button>
+                <button onclick="changeTab('I')" class="tab-button I flex-grow text-center py-4 px-2 border-b-4 border-transparent text-slate-600 hover:bg-slate-100 transition-colors duration-300">
+                    <span class="text-2xl font-bold text-yellow-500">I</span><span class="hidden sm:inline"> - Influence</span>
+                </button>
+                <button onclick="changeTab('S')" class="tab-button S flex-grow text-center py-4 px-2 border-b-4 border-transparent text-slate-600 hover:bg-slate-100 transition-colors duration-300">
+                    <span class="text-2xl font-bold text-green-500">S</span><span class="hidden sm:inline"> - Steadiness</span>
+                </button>
+                <button onclick="changeTab('C')" class="tab-button C flex-grow text-center py-4 px-2 border-b-4 border-transparent text-slate-600 hover:bg-slate-100 transition-colors duration-300">
+                    <span class="text-2xl font-bold text-blue-500">C</span><span class="hidden sm:inline"> - Conscientiousness</span>
+                </button>
+            </div>
+
+            <!-- Tab Content -->
+            <div id="tab-content" class="px-2 md:px-6">
+                <!-- D - Dominance -->
+                <div id="D" class="tab-pane">
+                    <h3 class="text-2xl font-bold text-red-600 mb-3">D - Dominance (Dominan)</h3>
+                    <p class="text-slate-600 mb-8">Individu 'Dominance' adalah berorientasikan result, tegas, dan suka bersaing. Mereka fokus untuk mencapai matlamat, membuat keputusan dengan pantas, dan mengambil alih kawalan dalam sesuatu situasi.</p>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="text-xl font-semibold text-green-600 mb-4">Kelebihan</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Berorientasikan matlamat dan keputusan.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Sangat yakin dan berdikari.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Mampu menyelesaikan masalah secara terus.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Suka cabaran dan mengambil risiko.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Tegas dalam membuat keputusan.</span></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-semibold text-red-600 mb-4">Perlu Diperbaiki</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Kurang sabar dan mudah rasa tertekan.</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Boleh dilihat sebagai seorang yang agresif atau terlalu mengarah.</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Kurang peka terhadap perasaan orang lain.</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Cenderung untuk mengkritik daripada memuji.</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Sukar untuk memberi kuasa (delegate) kepada orang lain.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- I - Influence -->
+                <div id="I" class="tab-pane hidden">
+                    <h3 class="text-2xl font-bold text-yellow-600 mb-3">I - Influence (Berpengaruh)</h3>
+                    <p class="text-slate-600 mb-8">Personaliti 'Influence' adalah individu yang bersemangat, optimistik, dan pandai bersosial. Mereka suka bekerjasama, memujuk, dan memberi inspirasi kepada orang lain. Mereka adalah nadi dalam perbualan dan sangat pandai membina hubungan.</p>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="text-xl font-semibold text-green-600 mb-4">Kelebihan</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Sangat persuasif dan pandai memujuk.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Bersemangat tinggi dan optimistik.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Pandai berkomunikasi dan membina rangkaian (networking).</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Kreatif dan penuh dengan idea baharu.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Mampu memberi motivasi kepada pasukan.</span></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-semibold text-red-600 mb-4">Perlu Diperbaiki</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Kurang fokus pada perincian dan fakta.</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Cenderung untuk bersikap tidak teratur (disorganized).</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Takut akan penolakan sosial.</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Boleh menjadi terlalu emosional atau impulsif.</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Sukar untuk menyempurnakan tugasan (follow-through).</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- S - Steadiness -->
+                <div id="S" class="tab-pane hidden">
+                    <h3 class="text-2xl font-bold text-green-600 mb-3">S - Steadiness (Stabil)</h3>
+                    <p class="text-slate-600 mb-8">Individu 'Steadiness' dikenali sebagai seorang yang tenang, sabar, dan boleh diharap. Mereka menghargai kestabilan, kerjasama, dan keharmonian. Mereka adalah pendengar yang baik dan sentiasa sedia membantu.</p>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="text-xl font-semibold text-green-600 mb-4">Kelebihan</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Sangat setia dan boleh dipercayai.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Pemain pasukan yang hebat dan menyokong.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Sabar dan pendengar yang baik.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Tenang di bawah tekanan.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Konsisten dan metodikal dalam bekerja.</span></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-semibold text-red-600 mb-4">Perlu Diperbaiki</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Tidak suka kepada perubahan yang mendadak.</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Mengelakkan konflik dan konfrontasi.</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Boleh menjadi terlalu berhati-hati dan lambat membuat keputusan.</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Sukar untuk menyatakan "tidak".</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Menyimpan perasaan atau dendam.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- C - Conscientiousness -->
+                <div id="C" class="tab-pane hidden">
+                    <h3 class="text-2xl font-bold text-blue-600 mb-3">C - Conscientiousness (Teliti)</h3>
+                    <p class="text-slate-600 mb-8">Personaliti 'Conscientiousness' adalah seorang yang sangat teliti, analitikal, dan mementingkan kualiti serta ketepatan. Mereka bekerja mengikut peraturan dan standard yang ditetapkan untuk memastikan hasil kerja adalah yang terbaik.</p>
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="text-xl font-semibold text-green-600 mb-4">Kelebihan</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Sangat teliti dan berorientasikan perincian.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Berfikiran analitikal dan logikal.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Mementingkan kualiti dan ketepatan yang tinggi.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Sistematik dan teratur dalam bekerja.</span></li>
+                                <li class="flex items-start"><span class="text-green-500 mr-3 mt-1">✓</span><span>Membuat keputusan berdasarkan fakta dan data.</span></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-semibold text-red-600 mb-4">Perlu Diperbaiki</h4>
+                            <ul class="space-y-3">
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Cenderung untuk menjadi terlalu kritikal terhadap diri dan orang lain.</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Boleh terperangkap dalam "analysis paralysis" (terlalu banyak menganalisis).</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Tidak fleksibel dan terlalu mengikut peraturan.</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Takut dikritik mengenai hasil kerja.</span></li>
+                                <li class="flex items-start"><span class="text-red-500 mr-3 mt-1">🔧</span><span>Boleh dilihat sebagai seorang yang pendiam atau suka menyendiri.</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="bg-slate-800 text-slate-400">
+        <div class="container mx-auto px-6 py-8 text-center">
+            <p>&copy; 2025 Panduan Personaliti DISC. Dicipta untuk tujuan pendidikan dan pembangunan diri.</p>
+        </div>
+    </footer>
+
+    <script>
+        function changeTab(tabName) {
+            // Hide all tab panes
+            const tabPanes = document.querySelectorAll('.tab-pane');
+            tabPanes.forEach(pane => {
+                pane.classList.add('hidden');
+            });
+
+            // Deactivate all tab buttons
+            const tabButtons = document.querySelectorAll('.tab-button');
+            tabButtons.forEach(button => {
+                button.classList.remove('active');
+                // Reset border color
+                if (button.classList.contains('D')) button.style.borderColor = 'transparent';
+                if (button.classList.contains('I')) button.style.borderColor = 'transparent';
+                if (button.classList.contains('S')) button.style.borderColor = 'transparent';
+                if (button.classList.contains('C')) button.style.borderColor = 'transparent';
+            });
+
+            // Show the selected tab pane
+            const selectedPane = document.getElementById(tabName);
+            if (selectedPane) {
+                selectedPane.classList.remove('hidden');
+            }
+
+            // Activate the selected tab button
+            const selectedButton = document.querySelector('.tab-button.' + tabName);
+            if (selectedButton) {
+                selectedButton.classList.add('active');
+                // Set border color based on tab
+                const colors = { D: '#ef4444', I: '#f59e0b', S: '#22c55e', C: '#3b82f6' };
+                selectedButton.style.borderColor = colors[tabName];
+            }
+        }
+        
+        // Initialize with the first tab active
+        document.addEventListener('DOMContentLoaded', () => {
+            changeTab('D');
+        });
+    </script>
+
+</body>
+</html>
